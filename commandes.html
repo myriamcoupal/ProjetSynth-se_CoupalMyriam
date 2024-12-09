@@ -97,8 +97,11 @@
 				</div>
 				<div class="col-12">
 					<div class="mb-3">
-						<label for="exampleFormControlTextarea1" class="form-label">Détail de la commande, mettre le plus de détails possible</label>
-						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						<label for="exampleFormControlTextarea1" class="form-label">Détail de la commande</label>
+						<div class="col-md-6">
+							<textarea id="commentaire" class="form-control" rows="4" placeholder="Le plus détaillé possible..."></textarea>
+							<ul id="liste-commentaires" class="list-group my-4"></ul>
+						</div>
 					  </div>
 				  <div class="form-check">
 					<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
@@ -114,7 +117,10 @@
 				  <button class="btn btn-primary" type="submit">Envoyer</button>
 				</div>
 			  </form>
-		</section>							  
+		</section>	
+		<section class="container">
+			<form>
+		</section>			  						  
 
 	</main>
 	<footer class="bg-light py-4 text-success">
