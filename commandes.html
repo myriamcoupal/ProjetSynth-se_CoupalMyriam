@@ -46,83 +46,61 @@
 		</nav>
 	</header>
 	<main class="bg-success">
-		<h1 class="container text-center text-light custom-title py-5">Commandes personalisée</h1>
+		<h1 class="container text-center text-light custom-title py-5">Commandes personnalisées</h1>
 		<section class="container py-5">
 			<form class="row g-3 needs-validation text-light" novalidate>
-				<div class="col-md-4">
-				  <label for="validationCustom01" class="form-label">Prénom</label>
-				  <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-				  <div class="valid-feedback">
-					Parfait!
-				  </div>
-				</div>
-				<div class="col-md-4">
-				  <label for="validationCustom02" class="form-label">Nom</label>
-				  <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-				  <div class="valid-feedback">
-					Parfait!
-				  </div>
-				</div>
-				<div class="col-md-4">
-				  <label for="validationCustomNumber" class="form-label">Numéro téléphone</label>
-				  <input type="text" class="form-control" id="validationCustom02" value="000 000-000" required>
-				  <div class="valid-feedback">
-					Parfais!
-				  </div>
-				  </div>
+				<div class="col-md-6">
+					<div class="mb-3">
+						<label for="validationCustom01" class="form-label">Prénom</label>
+						<input type="text" class="form-control" id="validationCustom01" required>
+					</div>
+					<div class="mb-3">
+						<label for="validationCustom02" class="form-label">Nom</label>
+						<input type="text" class="form-control" id="validationCustom02" required>
+					</div>
+					<div class="mb-3">
+						<label for="validationCustomNumber" class="form-label">Numéro téléphone</label>
+						<input type="text" class="form-control" id="validationCustomNumber" required>
+					</div>
+					<div class="mb-3">
+						<label for="validationCustom03" class="form-label">Ville</label>
+						<input type="text" class="form-control" id="validationCustom03" required>
+					</div>
+					<div class="mb-3">
+						<label for="validationCustom04" class="form-label">État</label>
+						<select class="form-select" id="validationCustom04" required>
+							<option selected disabled value="">Choisir...</option>
+							<option>Québec</option>
+							<option>Californie</option>
+							<option>Hawaï</option>
+							<option>Indiana</option>
+							<option>Nevada</option>
+						</select>
+					</div>
+					<div class="mb-3">
+						<label for="validationCustom05" class="form-label">Date désirée pour la commande</label>
+						<input type="date" class="form-control" id="validationCustom05" required>
+					</div>
 				</div>
 				<div class="col-md-6">
-				  <label for="validationCustom03" class="form-label">Ville</label>
-				  <input type="text" class="form-control" id="validationCustom03" required>
-				  <div class="invalid-feedback">
-					Fournir une ville valide.
-				  </div>
-				</div>
-				<div class="col-md-3">
-				  <label for="validationCustom04" class="form-label">État</label>
-				  <select class="form-select" id="validationCustom04" required>
-					<option selected disabled value="">Québec</option>
-					<option>Californie</option>
-					<option>Hawaï</option>
-					<option>Indiana</option>
-					<option>Nevada</option>
-				  </select>
-				  <div class="invalid-feedback">
-					Fournir un état valide.
-				  </div>
-				</div>
-				<div class="col-md-3">
-				  <label for="validationCustom05" class="form-label">date désiré pour la commande</label>
-				  <input type="text" class="form-control" id="validationCustom05" required>
-				</div>
-				<div class="col-12">
 					<div class="mb-3">
 						<label for="exampleFormControlTextarea1" class="form-label">Détail de la commande</label>
-						<div class="col-md-6">
-							<textarea id="commentaire" class="form-control" rows="4" placeholder="Le plus détaillé possible..."></textarea>
-							<ul id="liste-commentaires" class="list-group my-4"></ul>
-						</div>
-					  </div>
-				  <div class="form-check">
-					<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-					<label class="form-check-label" for="invalidCheck">
-					  Accepte d'être contacté par téléphone
-					</label>
-					<div class="invalid-feedback">
-					  Vous devez accepté d'être contacté avant d'envoyer.
+						<textarea id="exampleFormControlTextarea1" class="form-control" rows="10" placeholder="Le plus détaillé possible..."></textarea>
 					</div>
-				  </div>
 				</div>
 				<div class="col-12">
-				  <button class="btn btn-primary" type="submit">Envoyer</button>
+					<div class="form-check mb-3">
+						<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+						<label class="form-check-label" for="invalidCheck">
+							J'accepte d'être contacté par téléphone
+						</label>
+					</div>
+					<button class="btn btn-primary" type="submit">Envoyer</button>
 				</div>
-			  </form>
-		</section>	
-		<section class="container">
-			<form>
-		</section>			  						  
-
+			</form>
+		</section>
 	</main>
+	
 	<footer class="bg-light py-4 text-success">
 		<div class="container">
 		  <div class="row text-center align-items-center">
